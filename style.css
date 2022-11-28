@@ -4,10 +4,11 @@
 }
 html {
   box-sizing: border-box;
+  display: block;
 }
 
 body {
-  background-color: #d6e1ff;
+  background-color: hsl(225, 100%, 94%);
   background-image: url(./images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
   font-family: "Red Hat Display";
