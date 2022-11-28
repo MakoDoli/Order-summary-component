@@ -142,3 +142,53 @@ p > a:hover {
 .payment:hover {
   background-color: #766cf1;
 }
+
+@media screen and (max-width: 480px) {
+  .summary-container {
+    height: 567px;
+    width: 327px;
+  }
+  h1 {
+    font-size: 22px;
+    height: 29.11px;
+  }
+
+  h2 {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .plan-text {
+    font-size: 14px;
+    line-height: 18.52px;
+  }
+  .music {
+    width: 100%;
+  }
+  .icon {
+    position: absolute;
+    top: 17px;
+    left: 16px;
+    height: 48px;
+  }
+  body {
+    background-image: url(./images/pattern-background-mobile.svg);
+  }
+  .summary-plan {
+    margin: 0 24px 24px 24px;
+  }
+  .price {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .payment {
+    height: 50px;
+    width: 279px;
+
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 19px;
+  }
+  .change-plan {
+    right: 6px;
+  }
+}
