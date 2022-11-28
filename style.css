@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d6e1ff;
+  font-family: "Red Hat Display";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 900px;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 28px;
+  height: 37.04px;
+  color: #1f2e55;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #717fa6;
+}
+
+h3 {
+  padding: 15px;
+}
+a {
+  text-decoration: none;
+}
+p {
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  color: #717fa6;
+  padding-top: 32px;
+}
+
+p > a {
+  color: #717fa6;
+}
+
+p > a:hover {
+  color: #1f2e55;
+}
+.summary-container {
+  display: block;
+  width: 450px;
+  height: 697px;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+  margin: 101 auto;
+}
+
+.summary-img {
+  border-radius: 20px 20px 0 0;
+}
+.music {
+  border-radius: 20px 20px 0 0;
+}
+
+.heading {
+  margin: 29px 48px 17px 48px;
+}
+
+.summary-text {
+  height: 78px;
+  margin: 0 48px 20px 48px;
+}
+
+.summary-plan {
+  height: 98;
+  margin: 0 48px 32px 48px;
+  background-color: #f7f9ff;
+  border-radius: 11px;
+  position: relative;
+  padding-bottom: 98px;
+}
+.icon {
+  position: absolute;
+  top: 25px;
+  left: 24px;
+}
+.plan-text {
+  position: absolute;
+  left: 92px;
+  top: 25px;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1f2e55;
+}
+.price {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  position: absolute;
+  left: 92px;
+  top: 52px;
+  color: #717fa6;
+}
+.change-plan {
+  position: absolute;
+  right: 39px;
+  top: 40px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: #382ae1;
+}
+
+.change-plan:hover {
+  color: #766cf1;
+  text-decoration: none;
+}
+.payment {
+  height: 50px;
+  width: 354px;
+  background-color: #382ae1;
+  border-radius: 11px;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+
+  margin: auto;
+  color: #ffffff;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+}
+.payment:hover {
+  background-color: #766cf1;
+}
